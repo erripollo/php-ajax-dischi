@@ -1,0 +1,33 @@
+/* Site main css */
+#site_main {
+  width: 100%;
+  height: calc(100% - 80px);
+  background-color: #1e2d3b;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: start;
+  padding-top: 5rem;
+  overflow-y: auto;
+  .card {
+    width: 200px;
+    height: 360px;
+    color: white;
+    text-align: center;
+    background-color: #2e3a46;
+    margin: 0.5rem 1rem;
+    padding: 20px;
+    .title {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.35rem;
+      margin: 25px 0;
+    }
+    .author {
+      color: #707474;
+    }
+    .year {
+      color: #707474;
+    }
+  }
+}
