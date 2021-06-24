@@ -1,22 +1,16 @@
 <?php 
     require __DIR__ . '/database/db.php';
-    require __DIR__ . '/templates/head.php'
-
+    require __DIR__ . '/templates/head.php';
+    require __DIR__ . '/templates/header.php';
 
 ?>
 
-<!-- Site header -->
-<header id="site_header">
-    <div class="logo">
-        <img width="60px" src="./dist/img/spotify-2015-logo.png" alt="">
-    </div>
-</header>
-<!-- /Site header -->
+
 
 <!-- Site main -->
 <main id="site_main">
 
-    <!-- card album -->
+    <!-- cards album -->
     <?php foreach ($discs as $disc) : ?>
     <div class="card">
         <img width="160px" src="<?= $disc['poster']; ?>" alt="album cover image">
@@ -25,7 +19,7 @@
         <div class="year"><?= $disc['year']; ?></div>
     </div>
     <?php endforeach; ?>
-    <!-- /card album -->
+    <!-- /cards album -->
 
 </main>
 <!-- /Site main -->
