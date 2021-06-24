@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap);
 /* Commons css */
 * {
   box-sizing: border-box;
@@ -7,6 +8,7 @@
 
 body {
   height: 100vh;
+  font-family: "Lato", sans-serif;
 }
 
 /* Site heade css */
